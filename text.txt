@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Watch Resale</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Apple Watch Resale</h1>
+    <nav>
+      <a href="#inventory">Inventory</a>
+      <a href="#featured">Featured</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="featured" class="highlight">
+    <h2>Featured Watch</h2>
+    <div class="product-card">
+      <img src="watch-ultra2.jpg" alt="Apple Watch Ultra 2 Orange" />
+      <div class="details">
+        <h3>Apple Watch Ultra 2 - Orange Band</h3>
+        <p>Open Box – Like New</p>
+        <p><strong>$699</strong></p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="inventory">
+    <h2>Available Inventory</h2>
+    <div class="product-grid">
+      <!-- Add more watch listings here -->
+      <div class="product-card">
+        <img src="watch-series9.jpg" alt="Apple Watch Series 9" />
+        <div class="details">
+          <h3>Apple Watch Series 9 - Midnight</h3>
+          <p>Brand New, Sealed</p>
+          <p><strong>$429</strong></p>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <!-- Duplicate and edit product-card divs as needed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Your message..."></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Apple Watch Resale. Not affiliated with Apple Inc.</p>
+  </footer>
+</body>
+</html>
